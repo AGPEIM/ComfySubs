@@ -1,8 +1,8 @@
-# comfysubs
+# ComfySubs
 
-> An electron-vue project
+> 基于electron-vue的应用
 
-#### Build Setup
+#### 构建方式
 
 ``` bash
 # install dependencies
