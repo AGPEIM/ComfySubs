@@ -1,15 +1,17 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
-  </div>
+	<div id="app">
+		<FakeBar></FakeBar>
+		<router-view></router-view>
+	</div>
 </template>
 
 <script>
-  export default {
-    name: 'comfysubs'
-  }
+	import FakeBar from './components/Public/FakeBar.vue'
+	export default {
+		name: 'comfysubs',
+		components:{FakeBar}
+	}
 </script>
 
 <style>
-  /* CSS */
 </style>
